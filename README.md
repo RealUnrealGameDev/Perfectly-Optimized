@@ -1,20 +1,20 @@
 # Perfectly Optimized
 ## UE5 Lightweight Starter Template for Low-End Hardware
 
-**Perfectly Optimized** is a streamlined Unreal Engine 5 starter template engineered to deliver substantial performance gains on lower-end and legacy hardware.
+**Perfectly Optimized** is a Unreal Engine 5 starter template made to deliver performance gains on lower-end hardware.
 
-Unreal Engine 5’s default configuration heavily prioritizes ray-traced global illumination and virtualized geometry. While systems such as **Nanite** and **Lumen** scale effectively on modern GPUs, their baseline overhead can overwhelm older discrete GPUs and integrated graphics solutions.
+Unreal Engine 5’s default configuration prioritizes ray-traced global illumination and virtualized geometry. While systems such as **Nanite** and **Lumen** work effectively on modern GPUs, they can overwhelm older GPUs and integrated graphics.
 
-This template reconfigures the UE5 rendering pipeline around **stability, predictability, and low GPU cost**, delivering performance characteristics closer to Unity-style forward renderers while preserving Unreal Engine’s robust editor workflow and toolset.
+This template changes the UE5 rendering pipeline for **stability and low GPU cost**, delivering performance closer to Unity forward rendered games.
 
 ---
 
 ## Overview
 
-- Vulkan-based rendering backend  
+- Vulkan-based rendering  
 - High-end UE5 rendering features disabled by default  
-- Optimized for consistent frame times on low-spec systems  
-- Clean, lightweight baseline for performance-first UE5 projects  
+- Optimized for high and stable frame rates on low-spec systems  
+- Clean, lightweight template for performance-first UE5 projects  
 
 ---
 
@@ -23,34 +23,36 @@ This template reconfigures the UE5 rendering pipeline around **stability, predic
 ### Rendering Backend
 
 - Switched from **DirectX 12** to **Vulkan**
-- Improved driver compatibility on older and lower-tier GPUs
-- Reduced shader overhead and runtime cost
-- Avoids DX12-specific performance pitfalls on legacy hardware
+- Improved compatibility with mobile and VR systems
+- Reduced shader runtime cost
 
 ### Anti-Aliasing
 
-- Anti-aliasing forced to **FXAA**
-- **MSAA disabled (0 samples)** to eliminate multi-sample performance cost
+- Anti-aliasing changed to **FXAA**
+- **MSAA disabled (0 samples)**
 
 ### Lighting Pipeline
 
 - **Lumen fully disabled**
 - No real-time global illumination or reflections
-- Project configured for **baked lighting workflows**
-- Predictable and stable frame times during runtime
+- Project configured for **baked lighting**
 
 ### Geometry and Virtualization
 
 - **Nanite disabled by default**
-- Avoids virtualized geometry processing overhead
-- Ensures compatibility with GPUs lacking sufficient compute throughput
+- Avoids virtualized geometry processing
+- Ensures compatibility with GPUs lacking powerful compute resources
+
+### Reduced Package Size
+
+- **Disabled Prerequisites installer**
+- Exclude Editor Content While Cooking
+- Exclude Movies while staging
 
 ### Additional Performance-Focused Changes
 
-- Reduced post-processing features
+- Reduced unecessary post processing
 - Virtual Shadow Maps disabled
-- Distance field-based effects disabled
-- Simplified default rendering and material settings
 - Clean project configuration with no unnecessary runtime systems
 
 ---
@@ -60,7 +62,6 @@ This template reconfigures the UE5 rendering pipeline around **stability, predic
 **Features**
 - Vulkan-rendered UE5 template optimized for low-end hardware  
 - Lightweight sample maps with performance-focused settings  
-- Engine-level optimizations only (no gameplay systems included)
 
 **Number of Blueprints**
 - None
@@ -86,11 +87,11 @@ This template reconfigures the UE5 rendering pipeline around **stability, predic
 
 ## Intended Use Cases
 
-- Developers targeting older PCs, budget laptops, and integrated GPUs  
+- Developers targeting older PCs, budget laptops, VR Systems, Mobile Games and integrated GPUs  
 - Performance-sensitive prototypes and experiments  
-- Indie projects requiring a lightweight UE5 baseline  
+- Indie projects requiring a lightweight UE5 Project
 - Stylized, low-poly, or small-scale 3D projects  
-- Developers transitioning from Unity-style rendering workflows to UE5
+- Developers transitioning from Unity rendering to UE5
 
 ---
 
@@ -109,7 +110,7 @@ This template exists to provide a **clean, fast, and predictable starting point*
 
 1. Clone/download this repository or download from fab
 2. Open the `.uproject` file using Unreal Engine 5  
-3. Build lighting
+3. **Build lighting**
 4. Begin development with a performance-optimized baseline
 ---
 
