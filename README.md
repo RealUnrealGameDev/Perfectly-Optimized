@@ -1,5 +1,4 @@
 ![Title Image lol](https://media.fab.com/image_previews/gallery_images/f0dcb256-002c-47e9-a33e-afae20c4a418/8d69a5e7-26fd-4768-9f9e-afd3280474ee.jpg)
-# Perfectly Optimized
 **Perfectly Optimized** is a Unreal Engine 5 starter template made to deliver performance gains on lower-end hardware.
 
 Unreal Engine 5’s default configuration prioritizes ray-traced global illumination and virtualized geometry. While systems such as **Nanite** and **Lumen** work effectively on modern GPUs, they can overwhelm older GPUs and integrated graphics.
@@ -13,7 +12,7 @@ This template changes the UE5 rendering pipeline for **stability and low GPU cos
 - Vulkan-based rendering  
 - High-end UE5 rendering features disabled by default  
 - Optimized for high and stable frame rates on low-spec systems  
-- Clean, lightweight template for performance-first UE5 projects  
+- Clean, lightweight template for performance  
 
 ---
 
