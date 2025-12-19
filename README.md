@@ -1,6 +1,4 @@
 # Perfectly Optimized
-## UE5 Lightweight Starter Template for Low-End Hardware
-
 **Perfectly Optimized** is a Unreal Engine 5 starter template made to deliver performance gains on lower-end hardware.
 
 Unreal Engine 5’s default configuration prioritizes ray-traced global illumination and virtualized geometry. While systems such as **Nanite** and **Lumen** work effectively on modern GPUs, they can overwhelm older GPUs and integrated graphics.
