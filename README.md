@@ -1,4 +1,4 @@
-![Title Image lol](https://media.fab.com/image_previews/gallery_images/16328483-1ab7-4212-836d-73c0d0414df2/ac4d0eec-e992-4e98-a13b-cbfa3b242c41.jpg)
+![Title Image lol](https://d3kjluh73b9h9o.cloudfront.net/optimized/4X/4/a/d/4ade2ab5b0a1dc722069a5616882a0152426432a_2_690x390.png)
 **Perfectly Optimized** is a Unreal Engine 5 starter template made to deliver performance gains on lower-end hardware.
 
 Unreal Engine 5’s default configuration prioritizes ray-traced global illumination and virtualized geometry. While systems such as **Nanite** and **Lumen** work effectively on modern GPUs, they can overwhelm older GPUs and integrated graphics.
